@@ -1,3 +1,6 @@
+import { getDatabase, ref, onValue } from "firebase/database";
+import { useEffect, useState } from "react";
+
 const Footer = () =>{
     return(
         <div className="padding-bottom">
